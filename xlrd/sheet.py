@@ -392,7 +392,7 @@ class Sheet(BaseObject):
             self.utter_max_rows = 65536
         else:
             self.utter_max_rows = 16384
-        self.utter_max_cols = 256
+        self.utter_max_cols = 2 ** 10
 
         self._first_full_rowx = -1
 
